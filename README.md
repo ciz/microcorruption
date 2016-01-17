@@ -3,7 +3,8 @@
 The CTF can be found at: https://microcorruption.com/about
 
 We're connected to a fictional device that controls the door to a warehouse.
-The goal is to find an input that unlocks the door lock.
+The goal is to unlock the door, either by finding the password or
+by exploiting a bug in the lock's code.
 The challenges are progressively hard.
 Ranging from (for me) minutes, for the first ones, to days, for the last two.
 
@@ -340,5 +341,6 @@ The above code unlocks the lock, when proper conditions are met.
 We have the algorithm at our hand,
 so we can write a key generator to get a valid password.
 Simple **hollywood-keygen.c** should be around.
+The shortest valid key is 5 bytes long.
 
 **Password**: 4d4db1da96
