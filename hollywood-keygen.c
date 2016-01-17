@@ -1,4 +1,4 @@
-/* Microcorruption CTF level Hollywood sample keygen */
+/* Microcorruption CTF level Hollywood simple keygen */
 
 #include <stdbool.h>
 #include <stdio.h>

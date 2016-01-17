@@ -1,4 +1,4 @@
-### Introduction
+### Introduction to Microcorruption
 
 The CTF can be found at: https://microcorruption.com/about
 
@@ -339,6 +339,6 @@ call #0x10
 The above code unlocks the lock, when proper conditions are met.
 We have the algorithm at our hand,
 so we can write a key generator to get a valid password.
-**hollywood-keygen.c** should be around.
+Simple **hollywood-keygen.c** should be around.
 
 **Password**: 4d4db1da96
